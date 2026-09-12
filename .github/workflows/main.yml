@@ -7,6 +7,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build with Buildozer
-      uses: ArtemSBulgakov/buildozer-action@v2
+      uses: ArtemSBulgakov/buildozer-action@v1
       with:
         workdir: .
